@@ -1,0 +1,28 @@
+This is what could be implemented in C to test some C language basics and how to work with editors, compilers and repositories
+Write a code (named test1.c) to implement the following features
+The program will have an input parameter that would be the maximum of the random number to be generated on the game
+this input parameter could be optional, and in that situation the program has to set the value to a maximum of 100
+Therefore the program execution should be
+OPTION 1: ./test1 VALUE
+and the maximum value (MAXIMUM) would be set to VALUE
+OPTION 2: ./test1 
+and the maximum value (MAXIMUM) would be set to 100
+if any other option is used (with more than these parameters) the program must write and error message with a clear text about the error according to the number of paramters and exit its execution
+
+If the program could be executed because the number of input parameters is correct then 
+the program must be in a LOOP (for 10 iterations) (to play automatically 10 times) and then must exit
+FIRST a random number in the range [0-MAXIUM] must be generated. It is mandatory that the number would be different at every iteration of the game, and the number must be generated using a seed
+SECOND the program must iteratively try to guess the value randomly generated, the process will be
+according to the current range limits [0-MAXIMUM] generate a number just in the middle (center) of the range (if range is 0-100, generated number 50)
+then the program  must have a function (named compared) that will take the randomly generated number (RANDOM) and the center value (CENTER) and return if the center value is lower than, equal to, or bigger than RANDOM
+according to the result the game must do
+THIRD
+if the center is lower than, then a new range must be generated [CENTER,MAXIMUM] and a new value at the center must be generated and a new iteration of the game must be played
+if the center is bigger than, then a new range must be generated [0,CENTER] and a new value at the center must be generated and a new iteration of the game must be played
+if the center is equal to a message must be written with the number of iterations needed to guess the value, and the guessed value must be printed
+
+You can upload the solution code on the repository
+You should add a report with basics information
+1.- Screenshots and details on how to compile and run the code
+2.- Screenshots and details about some tests (execution of the program) to see how input parameter is properly processed
+3.- Screeenshots and details about at least a couple of executions of the code
