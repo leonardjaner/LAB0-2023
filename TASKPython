@@ -1,0 +1,36 @@
+According with the documentation on TecnoCampus Moodle you have to manage a virtual environment for the execution of the test code
+
+You have to code a python script named test1.py to solve the following problem
+
+You have to read/ask for it a filename (the way you prefer to do it)
+
+With that text filename (so a filename that is in a textual format (only ASCII text) (could be any text file on your Linux system that you already have or a new one that you create))
+
+the program has to:
+
+FIRST: print a message with the number of lines of the file
+SECOND: print a message with the number of characters on each line of the file
+THIRD: print a message with the total number of characters on the file (the addition of the number of characters of every line)
+FOURTH: print the size of the file (that must be the same result as the one you can get on the shell of the system with the command "ls -laF filename"
+
+A text file is something similar to:
+LINE1
+LINE2
+LINE3
+
+maybe, this is something you have to learn (manage) it could be something similar to
+
+LINE1(END OF LINE)
+LINE2(END OF LINE)
+LINE3(END OF LINE)
+(END OF FILE)
+
+What is relevant is that your have to print information about characters on LINE1, then on LINE2 then on LINE3 and so, you have to add these values, and the result must be equal to what would be the output of the "ls" command
+
+You have to add on your repository
+1.- the python code
+2.- a report with some basics information
+a.- how to required libraries must be install on a virtual environment to be able to execute your code (with screenshots and detail information)
+b.- how to execute the script  (with screenshots and detail information)
+c.- test examples (at leats a couple) with the execution of the script with a couple of different files  (with screenshots and detail information)
+d.- the two input textfiles used for the previous examples
